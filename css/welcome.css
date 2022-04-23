@@ -1,0 +1,11 @@
+
+.container-fluid{
+    background-image:linear-gradient(rgba(185, 180, 180, 0.548),rgba(73, 71, 71, 0.493)), url("/image/1.jpg");
+    height:100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+h1{
+    font-weight: 700;
+} 

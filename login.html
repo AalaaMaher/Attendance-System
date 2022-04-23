@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title></title>
+    <script src="jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="/js/login.js">
+                
+    </script>
+        <script src="./js/bootstrap.bundle.js"></script>
+    <style>
+
+
+    </style>
+</head>
+
+
+    <body class="text-center">
+    <form class="form-signin w-25 text-center mt-5 m-auto" name="login" method="get" id="login" action="load.html">
+        <img class="mb-2" src="./image/logo" alt="" width="150" height="100">
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="text" id="username" name="username" class="form-control align-content-center mb-1" placeholder="Email address" required="" autofocus="">
+      <br>  <span id="invalid_user"> You should insert user name</span> <br>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password"  id="password" class="form-control mb-1" placeholder="Password" required="">
+       <br> <span id="invalid_password"> You should insert password</span><br>
+        <button class="btn btn-md btn-primary btn-block mt-3 mb-2" type="submit"  value="login">Log in</button>
+        <button class="btn btn-md btn-secondary btn-block mt-3 mb-2"  value="Sign Up" id="regist">Sign up</button>
+       <br> <span id="invalid"> Invalid User name or Invalid Password </span><br>
+       
+      </form> 
+</body>
+
+</html>
